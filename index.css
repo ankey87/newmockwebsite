@@ -42,6 +42,8 @@ p {
 #portfolio {
     font-size: 38px;
     background-color: indigo;
+    margin-top: none;
+    margin-bottom: none;
 }
 h3 {
     text-indent: 10px;
@@ -81,3 +83,11 @@ h3 {
     left: 245px;
     top: -150px;
 } 
+ul {
+    list-style: none;
+}
+#main-image{
+    border: solid;
+    border-color: indigo;
+    border-width: 5px;
+}
