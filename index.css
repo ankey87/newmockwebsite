@@ -91,13 +91,18 @@ ul {
     border-color: indigo;
     border-width: 5px;
 }
-.button {
+button {
     background-color: white;
     color: indigo;
-    font-size: 20px;
+    font-size: 10px;
     border-radius: 10px;
     display: inline-block;
     text-align: justify;
     padding: 12px 28px;
     font-weight: bold;
+    transition-duration: 0.4s;
+}
+button:hover {
+    background-color: indigo;
+    color: whitesmoke;
 }
