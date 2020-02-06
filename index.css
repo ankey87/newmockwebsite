@@ -1,9 +1,21 @@
+body {
+    margin: 0px;
+}
+
 .topnav {
     background-color: indigo;
     word-spacing: 50px;
     text-align: center;
-    padding: 50px;
-    font-size: 25px;
+    padding: 40px;
+    font-size: 20px;
+    margin: 0px;
+    position: relative;
+    bottom: 5px;
+}
+body {
+    font-family: sans-serif;
+    background-color: turquoise;
+    color: paleturquoise;
 }
 a {
     color: whitesmoke;
@@ -16,16 +28,14 @@ a:hover {
 .main-head {
     font-weight: bold;
     font-size: 48px;
-    text-align: center;    
+    text-align: center;  
+    background-color: turquoise;
 }
 h2.subtitle {
     text-align: center;
-}
-body {
-    font-family: sans-serif;
     background-color: turquoise;
-    color: gray;
 }
+
 img {
     height: 400px;
     display: block;
@@ -33,63 +43,68 @@ img {
     margin-right: auto;
     float: right;
 }
-p {
-    font-size: 20px;
-    line-height: 20px;
-    text-indent: 15px;
-    padding: 20px;
+hr {
+    border-top: 5px solid indigo;
+    width: 1175px;
 }
 #portfolio {
     font-size: 38px;
-    background-color: indigo;
     margin-top: none;
     margin-bottom: none;
+    padding-bottom: 100px;
+    color: gray;
 }
 h3 {
     text-indent: 10px;
     padding: 2px;
-} 
-.proj {
-    margin: 20px;
-    font-weight: bold;
-    font-size: 15px;
 }
+ul {
+    list-style: none;
+} 
+
 #contact {
     font-size: 38px;
-    background-color: indigo;
+    color: gray;
 }
 
 #budgetwise {
-    height: 150px;
-    position: relative;
-    left: -500px;
-    top: -75px;
-}
-#kenziestub {
     height: 200px;
     position: relative;
-    left: -300px;
-    top: -132px;
+    right: 1000px;
+    bottom: 265px;
+}
+#kenziestub {
+    height: 275px;
+    position: relative;
+    right: 500px;
+    bottom: 300px;
 }
 #theark {
-    height: 100px;
+    height: 130px;
     position: relative;
-    left: -60px;
-    top: -115px;
+    right: 550px;
+    bottom: 350px;
+    border-style: ridge;
+    border-width: 10px;
+    border-color: whitesmoke;
 }
 #userexp {
-    height: 100px;
+    height: 150px;
     position: relative;
-    left: 245px;
-    top: -150px;
+    right: 370px;
+    bottom: 130px;
 } 
-ul {
-    list-style: none;
-}
+
 #main-image {
-    border: solid;
-    border-color: indigo;
+    position: relative;
+    display: inline-block;
+    right: 5px;
+    bottom: 425px;
+    width: 45%;
+    border-radius: 20%;
+    border-style: groove;
     border-width: 5px;
+    margin-right: 5px;
 }
 button {
     background-color: white;
@@ -101,8 +116,61 @@ button {
     padding: 12px 28px;
     font-weight: bold;
     transition-duration: 0.4s;
+    position: relative;
+    left: 255px;
+    bottom: 50px;
 }
 button:hover {
-    background-color: indigo;
+    background-color: turquoise;
     color: whitesmoke;
+}
+.sp1 {
+    background-color: indigo;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: 15px;
+    border-style: solid;
+    border-color: whitesmoke;
+    font-size: 18px;
+    line-height: 25px;
+    text-indent: 15px;
+}
+.p2 {
+    background: indigo;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 550px;
+    border-radius: 10px;
+    border-style: solid;
+    position: relative;
+    left: 600px;
+    margin: 20px;
+    font-size: 18px;
+    line-height: 40px;
+    bottom: 90px;
+}
+strong.proj {
+    font-style: bold;
+}
+.uxcert {
+    color: whitesmoke;
+}
+.p1 {
+    font-size: 48px;
+    text-align: center;  
+    background-color: turquoise;
+    font-family: cursive;
+}
+.p3 {
+    background-color: indigo;
+    padding-top: 5px;
+}
+.email {
+    position: relative;
+    left: 20px;
+    margin-bottom: 100%;
 }
