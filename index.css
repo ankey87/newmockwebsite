@@ -6,11 +6,20 @@
     font-family: "Black Jack";
     src: url(blackjack-webfont.woff);
 }
+@font-face {
+    font-family: "DroidSans";
+    src: url(DroidSans-webfont.woff);
+}
+@font-face {
+    font-family: "DroidSansBold";
+    src: url(DroidSans-Bold-webfont.woff);
+}
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: "DroidSans";
     background-color: turquoise;
     color: paleturquoise;
+    height: 1400px;
 }
 
 .topnav {
@@ -50,14 +59,17 @@ img {
     margin-right: auto;
     float: right;
 }
+.intro {
+    font-family: "DroidSansBold";
+}
 #portfolio {
-    margin: auto;
-    font-size: 38px;
-    margin-top: auto;
-    margin-bottom: auto;
+    font-size: 48px;
     padding-bottom: 100px;
     color: gray;
-    margin-left: 10px;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 2px 2px #aaa;
+    position: relative;
+    left: 650px;
 }
 h3 {
     text-indent: 10px;
@@ -70,7 +82,7 @@ ul {
     height: 200px;
     position: relative;
     right:  1290px;
-    bottom: 305px;
+    bottom: 280px;
     border-style: ridge;
     border-width: 10px;
     border-color: whitesmoke;
@@ -131,6 +143,7 @@ button {
     position: relative;
     left: 315px;
     bottom: 50px;
+    cursor: pointer;
 }
 button:hover {
     background-color: turquoise;
@@ -139,7 +152,8 @@ button:hover {
 .button {
     position: relative;
     display: inline-block;
-    left: 500px;
+    left: 1045px;
+    bottom: 160px;
 }
 .sp1 {
     background-color: indigo;
@@ -176,31 +190,28 @@ strong.proj {
 }
 .uxcert {
     color: whitesmoke;
+    font-family: "DroidSansBold";
 }
 .p1 {
-    font-size: 48px;
+    font-size: 64px;
     text-align: center;  
     background-color: turquoise;
-    font-family: "Black Jack";
+    font-family: 'Dancing Script', cursive;
     color: gray;
+    text-shadow: 4px 4px 4px #aaa;
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
 .bottomnav {
-    padding-top: 0px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 0px;
-    margin-left: 50px;
     text-indent: 15px;
     color: whitesmoke;
     font-size: 20px;
     background-color: indigo;
-    width: 350px;
-    border-radius: 10px;
-    border-style: solid;
-    border-color: mediumpurple;
+    width: 1440px;
     position: relative;
-    top: 100px;
+    margin: 0px;
+    top: 100%;
+    padding-bottom: 100px;
 }
 #contact {
     font-size: 26px;
