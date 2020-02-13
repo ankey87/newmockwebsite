@@ -219,4 +219,45 @@ strong.proj {
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
+.blog1 {
+    background-color: mediumpurple;
+    width: 50%;
+    position: relative;
+    height: 700px
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.post1 {
+    text-align: center;
+    font-family: "DroidSansBold";
+}
+.date1 {
+    text-align: center;
+}
+.blogimg {
+    position: relative;
+    margin-top: 10px;
+    float: right;
+    padding-left: 10px;
+    height: 300px;
+}
+.blogtext {
+    font-size: 15px;
+    padding-top: 10px;
+}
+.moreblog {
+    position: relative;
+    display: inline-block;
+    right: 100px;
+}
+.img2 {
+    width: 500px;
+    margin-left: 10px;
+}
+.img4 {
+    position: relative;
+    right: 350px;
+    margin-top: 10px;
 
+}
